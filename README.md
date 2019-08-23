@@ -1,3 +1,2 @@
 # djones
-My personal website
-Owned and created by yours truly using HTML, CSS, JavaScript, and React tools. 
+My personal website. Owned and created by yours truly. Created with HTML, CSS, JavaScript, and React tools. 
