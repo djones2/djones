@@ -4,7 +4,7 @@ html, body {
   }
   
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 100;
   }
   
@@ -15,7 +15,7 @@ html, body {
   }
   
   .header {
-    background: url(http://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg) no-repeat center center; 
+    background: url(back.png) no-repeat center center; 
     background-size: cover;
     height: 800px;
     text-align: center; 
@@ -23,16 +23,21 @@ html, body {
   
   .header .container {
     position: relative;
-    top: 200px;
+    top: 300px;
   }
   
   .header h1 {
     color: #fff;
     line-height: 100px; 
-    font-size: 80px;
+    font-size: 72px;
     margin-top: 0;
     margin-bottom: 80px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000; 
   }
   
   @media (min-width:850px) {
@@ -88,33 +93,43 @@ html, body {
   }
   
   .main .container {
-    margin: 80px auto;
+    margin: 120px auto;
   }
   
   .main img {
     float: left;
-    margin: 50px 80px 50px 0;
+    margin: -50px 140px 0px 0px;
   }
   
   .jumbotron {
-    background: url(http://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg) center center;
+    background: url(back.png) center center;
     background-size: cover;
-    height: 600px; 
+    height: 350px; 
   }
   
   .jumbotron .container {
     position: relative;
-    top: 220px;
+    top: 120px;
   }
   
   .jumbotron h2 {
     color: #fff;
     text-align: right; 
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000; 
   }
   
   .jumbotron p {
     color: #fff; 
     text-align: right; 
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;    
   }
   
   .jumbotron .btn {
@@ -125,7 +140,7 @@ html, body {
   .footer { 
     background: #000;
     height: 80px; 
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
   
   .footer p { 
